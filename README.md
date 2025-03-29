@@ -2,7 +2,7 @@
 
 ## 📜 **Overview**
 
-Overture-D.A.N.C.E.R. is an AI-driven web application that classifies dance styles (e.g., Hip Hop, Bharatanatyam, Michael Jackson) from video inputs using advanced computer vision and machine learning. It provides biomechanical analysis and cultural context for predictions, combining techniques from motion analysis research, temporal deep learning, and explainable AI.
+Overture : D.A.N.C.E.R. is an AI-driven web application that classifies dance styles (e.g., Hip Hop, Bharatanatyam, Michael Jackson) from video inputs using advanced computer vision and machine learning. It provides biomechanical analysis and cultural context for predictions, combining techniques from motion analysis research, temporal deep learning, and explainable AI.
 
 ## 🎯 **Key Features**
 
