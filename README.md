@@ -44,11 +44,11 @@ Let me know if you need adjustments to align with your hackathon scope!
 
 ---
 
-## 📜 **Overview
+## 📜 Overview
 
 Overture-D.A.N.C.E.R. is an AI-driven web application that classifies dance styles (e.g., Hip Hop, Bharatanatyam, Michael Jackson) from video inputs using advanced computer vision and machine learning. It provides biomechanical analysis and cultural context for predictions, combining techniques from motion analysis research, temporal deep learning, and explainable AI.
 
-## 🎯 **Key Features
+## 🎯 Key Features
 
 1. **Multi-Style Dance Classification**
     - Detects **8+ dance styles** using hybrid Temporal CNN-Transformer models.
@@ -65,7 +65,7 @@ Overture-D.A.N.C.E.R. is an AI-driven web application that classifies dance styl
     - Highlights style-defining features (e.g., "92% match in MJ's heel-leading footwork").
     - Cross-references movement patterns with cultural dance anthropology.
 
-## 🛠️ **Tech Stack
+## 🛠️ Tech Stack
 
 | **Component**    | **Tools**                                                               |
 | ---------------- | ----------------------------------------------------------------------- |
@@ -74,7 +74,7 @@ Overture-D.A.N.C.E.R. is an AI-driven web application that classifies dance styl
 | **AI/ML Models** | PyTorch (TCN + Transformer), HuggingFace Transformers, RAFT-Stereo Flow |
 | **Datasets**     | Let's Dance Dataset, Kaggle Indian Classical Dance, Synthetic MJ Moves  |
 
-## 📚 **Research Implementation
+## 📚 Research Implementation
 
 1. **Temporal Convolutional Networks (TCNs)**
     - Adapted from [noa-codes.github.io/dance.pdf](https://noa-codes.github.io/dance.pdf) for modeling pose sequences.
