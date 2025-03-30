@@ -21,8 +21,8 @@ Overture-D.A.N.C.E.R. is an AI-driven web application that classifies dance styl
 
 | **Component**    | **Tools**                                                               |
 | ---------------- | ----------------------------------------------------------------------- |
-| **Frontend**     | React, D3.js, Three.js, MediaPipe BlazePose (TF.js)                     |
-| **Backend**      | FastAPI, ONNX Runtime, Redis                                            |
+| **Frontend**     | Vue, D3.js, Three.js, MediaPipe BlazePose (TF.js)                       |
+| **Backend**      | FastAPI, ONNX Runtime,  **Apache Cassandra** (distributed database)     |
 | **AI/ML Models** | PyTorch (TCN + Transformer), HuggingFace Transformers, RAFT-Stereo Flow |
 | **Datasets**     | Let's Dance Dataset, Kaggle Indian Classical Dance, Synthetic MJ Moves  |
 
@@ -69,7 +69,7 @@ Overture-D.A.N.C.E.R. is an AI-driven web application that classifies dance styl
 
 | **Component**    | **Tools**                                                               |
 | ---------------- | ----------------------------------------------------------------------- |
-| **Frontend**     | React, D3.js, Three.js, MediaPipe BlazePose (TF.js)                     |
+| **Frontend**     | Vue, D3.js, Three.js, MediaPipe BlazePose (TF.js)                     |
 | **Backend**      | FastAPI, ONNX Runtime, **Apache Cassandra** (distributed database)      |
 | **AI/ML Models** | PyTorch (TCN + Transformer), HuggingFace Transformers, RAFT-Stereo Flow |
 | **Datasets**     | Let's Dance Dataset, Kaggle Indian Classical Dance, Synthetic MJ Moves  |
