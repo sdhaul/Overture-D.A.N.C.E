@@ -9,7 +9,7 @@
         OVERTURE
       </h1>
       <div class="tooltip">
-        Beginning of a performance. For this project, the AI-powered prelude to understanding and analyzing dance styles.
+        Meaning: Beginning of a performance. For this project, the AI-powered prelude to understanding and analyzing dance styles.
       </div>
     </div>
 
@@ -143,6 +143,8 @@ export default {
   position: absolute;
   top: 50%;
   left: 140%;
+  text-align: justify;
+  text-justify: inter-word;
   transform: translateY(-50%);
   max-width: 300px;
   margin-top: 150px;

@@ -1,15 +1,14 @@
 <template>
-<div class="bg-[linear-gradient(to_bottom,#000000,#333333)] min-h-screen relative">
+  <div class="bg-[linear-gradient(to_bottom,#000000,#333333)] min-h-screen relative">
     <!-- Hero Section -->
     <HeroSection />
 
     <!-- Scroll Down Prompt -->
     <ScrollDown />
 
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- Add spacing between ScrollDown and VideoPrompt -->
+    <div class="spacer"></div>
+
     <!-- Video Prompt Section -->
     <VideoPrompt />
 
@@ -18,7 +17,7 @@
         <h2 class="text-3xl font-bold">Video Upload Section</h2>
         <p class="mt-4">This is where users can upload their dance video.</p>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
@@ -28,31 +27,36 @@ import ScrollDown from './components/ScrollDown.vue';
 import { gsap } from 'gsap';
 
 export default {
-components: {
-HeroSection,
-ScrollDown,
-VideoPrompt,
-},
-mounted() {
-// Fade-in animation for the text after scrolling
-gsap.from(".fade-in-text", {
-scrollTrigger: {
-trigger: ".fade-in-text",
-start: "top bottom", // Starts when the text enters the viewport
-},
-duration: 1,
-opacity: 0, // Start with opacity at zero
-y: -20, // Move slightly upward
-ease: "power2.out",
-});
-},
+  components: {
+    HeroSection,
+    ScrollDown,
+    VideoPrompt,
+  },
+  mounted() {
+    // Fade-in animation for the text after scrolling
+    gsap.from(".fade-in-text", {
+      scrollTrigger: {
+        trigger: ".fade-in-text",
+        start: "top bottom", // Starts when the text enters the viewport
+      },
+      duration: 1,
+      opacity: 0, // Start with opacity at zero
+      y: -20, // Move slightly upward
+      ease: "power2.out",
+    });
+  },
 };
 </script>
 
 <style>
+/* Add spacing between components */
+.spacer {
+  height: 20vh; /* Adjust this value to increase or decrease the gap */
+}
+
 /* Global styles if needed */
 .fade-in-text {
-opacity: 0; /* Ensure it starts invisible */
-transition: opacity ease-in-out, transform ease-in-out;
+  opacity: 0; /* Ensure it starts invisible */
+  transition: opacity ease-in-out, transform ease-in-out;
 }
 </style>
